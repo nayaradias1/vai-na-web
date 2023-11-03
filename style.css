@@ -5,6 +5,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
 }
 header {
     background-color: #1E1E1E;
@@ -22,10 +23,9 @@ header {
     margin-top: 0px;
     
   }
-.prime{
-    margin-bottom: auto;
-    padding-bottom: auto;
-    width: 1000px;
+.prime {
+    width: 100%;
+    height: auto;
 }
 .setadireita {
     margin-bottom: 150px;
@@ -52,12 +52,12 @@ a {
 }
 div {
     text-align: center;
-    padding: auto;
     display: inline-block;
     cursor: pointer;
     margin-left: 80px;
     margin-bottom: 50px;
     margin-top: 50px;
+    width: auto;
 }
 footer{
     background-color: #1E1E1E;
